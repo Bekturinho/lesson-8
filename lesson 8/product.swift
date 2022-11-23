@@ -12,16 +12,23 @@ import Foundation
 //Название магазина. Площадь.
 //Расположение. Часы работы.
 //Наименование товара. Кол-во товара. Цена товара (Если у вас два и более одинаковых по названию товаров - соединить)
+class Product{
+    var productName: String
+    var productValue: Int
+    var productPrice: Int
+    
+    
+    init(productName: String, productValue: Int, productPrice: Int) {
+        self.productName = productName
+        self.productValue = productValue
+        self.productPrice = productPrice
+    }
+  
+}
 
-
-//var a = Shop(shopName: "istore", shopSqure: "233", shopPlace: "decedc", shopTime: "8:00")
-//func a1(){
-//    a.shopThings.insert(a, at: 0)
-//}
-
-
-var shops = Shop(shopName: "Народный", shopSqure: "155 m2", shopPlace: "UsA", shopTime: "9.00 - 20.00")
-shops.shopresult()
-print("                                ")
-var auto = autoShop(shopName: "BMW", shopSqure: "200 m2", shopPlace: "Russia", shopTime: "24 - 7 ")
-auto.shopresult()
+class Autoproduct: Product{
+    
+}
+class CLotheproduct: Product{
+    
+}

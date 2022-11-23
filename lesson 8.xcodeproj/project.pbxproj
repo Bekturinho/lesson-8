@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		917716B629292126009C7122 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917716B529292126009C7122 /* main.swift */; };
+		917716BD29292637009C7122 /* animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917716BC29292637009C7122 /* animal.swift */; };
+		917716BF2929265D009C7122 /* cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917716BE2929265D009C7122 /* cat.swift */; };
+		917716C129297BF1009C7122 /* shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917716C029297BF1009C7122 /* shop.swift */; };
+		917716C329297C10009C7122 /* product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917716C229297C10009C7122 /* product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		917716B229292126009C7122 /* lesson 8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "lesson 8"; sourceTree = BUILT_PRODUCTS_DIR; };
 		917716B529292126009C7122 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		917716BC29292637009C7122 /* animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animal.swift; sourceTree = "<group>"; };
+		917716BE2929265D009C7122 /* cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cat.swift; sourceTree = "<group>"; };
+		917716C029297BF1009C7122 /* shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shop.swift; sourceTree = "<group>"; };
+		917716C229297C10009C7122 /* product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				917716B529292126009C7122 /* main.swift */,
+				917716BC29292637009C7122 /* animal.swift */,
+				917716BE2929265D009C7122 /* cat.swift */,
+				917716C029297BF1009C7122 /* shop.swift */,
+				917716C229297C10009C7122 /* product.swift */,
 			);
 			path = "lesson 8";
 			sourceTree = "<group>";
@@ -121,6 +133,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				917716B629292126009C7122 /* main.swift in Sources */,
+				917716BF2929265D009C7122 /* cat.swift in Sources */,
+				917716BD29292637009C7122 /* animal.swift in Sources */,
+				917716C329297C10009C7122 /* product.swift in Sources */,
+				917716C129297BF1009C7122 /* shop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
